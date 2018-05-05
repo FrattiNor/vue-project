@@ -5,5 +5,5 @@
 >
 >豆瓣api电影查询
 >
->https://frattinor.github.io/vue-project/douban-movie-api/myDist
+>https://frattinor.github.io/vue-project/douban-movie-api/myDist/
 >
