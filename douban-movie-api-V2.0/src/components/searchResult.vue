@@ -21,7 +21,7 @@
 </div>
 </template>
 <script>
-import {fetchSearchMovies} from '../douban/api.js';
+import {fetchSearchMovies} from '../douban/api2.js';
 import loading from "./loading.vue";
 
 export default{

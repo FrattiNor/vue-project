@@ -12,7 +12,7 @@
     </div>
 </template>
 <script>
-import {fetchMovieById} from "../douban/api.js"
+import {fetchMovieById} from "../douban/api2.js"
 import loading from "./loading.vue"
 
 export default{

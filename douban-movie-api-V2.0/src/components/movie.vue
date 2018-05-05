@@ -40,8 +40,7 @@
 </div>
 </template>
 <script>
-// import InfiniteScroll from 'vue-infinite-scroll'
-import {fetchMoviesByType} from '../douban/api.js';
+import {fetchMoviesByType} from '../douban/api2.js';
 import loading from "./loading.vue";
 
 export default{
@@ -54,10 +53,8 @@ export default{
             show: false,
             moviesmore: "更多",
             movieInTheater:{
-
             },
             movieComingSoon:{
-
             },
         }
     },
@@ -82,6 +79,14 @@ export default{
             }
         });
         this.index = 0;
+    },
+    watch: {
+        movieInTheater:function(){
+            console.log(this.movieInTheater);
+        },
+        movieComingSoon:function(){
+            console.log(this.movieComingSoon);
+        },
     },
     updated(){
     },

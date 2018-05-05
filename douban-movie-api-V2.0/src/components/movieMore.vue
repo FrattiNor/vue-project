@@ -23,7 +23,7 @@
 <script>
 // import InfiniteScroll from 'vue-infinite-scroll'
 import Vue from "vue"
-import {fetchMoviesByType} from '../douban/api.js';
+import {fetchMoviesByType} from '../douban/api2.js';
 import InfiniteScroll from 'vue-infinite-scroll'
 import loading from "./loading.vue"
 
