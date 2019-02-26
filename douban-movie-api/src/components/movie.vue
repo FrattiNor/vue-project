@@ -1,6 +1,6 @@
 <template>
 <div>
-    <div v-if="show">
+    <div v-if="show" class="movie-index">
         <div class="title">
             <span class="movieListTitle">{{movieInTheater.title}}</span>
             <router-link v-bind:to="{ name: 'movieMore', query: {type: movieInTheater.type}}" tag="span" class="more">{{moviesmore}}</router-link>

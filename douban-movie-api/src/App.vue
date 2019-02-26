@@ -38,6 +38,9 @@ body{
   margin-top: 60px;
 }
 /*movie.vue and movieMore.vue*/
+.movie-index {
+    margin-bottom: 50px;
+}
 h1,li,span,p{
     user-select: none;
     cursor: pointer;
@@ -47,6 +50,7 @@ h1,li,span,p{
     color: #aaa;
     padding: 10px;
     margin: auto;
+    margin-top: 20px;
     max-width: 660px;
 }
 .movieListTitle{
@@ -123,6 +127,7 @@ input[type="text"]:focus{
   box-shadow: 0 0 10px 1px #ddd;
 }
 button{
+    cursor: pointer;
     height: 32px;
     vertical-align: bottom;
     background-color: #3E74B5;
@@ -418,6 +423,7 @@ button:hover{
 .Detail-div {
     margin-left: 10%;
     margin-right: 10%; 
+    margin-bottom: 50px;
 }
 .detailImg{
     width: 30%;
