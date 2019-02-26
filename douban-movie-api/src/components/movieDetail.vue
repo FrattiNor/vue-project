@@ -1,9 +1,9 @@
 <template>
     <div>
-        <div>
+        <div class="Detail-div">
             <h1 class="DetailTitle">{{movie.title}}</h1>
-            <h2>{{getOriginalTitle}}</h2>
             <img class="detailImg" v-bind:src="movie.images.large">
+            <h2>{{getOriginalTitle}}</h2>
             <p>{{getMeta}}</p>
             <p class="DetailJuqing">{{movie.title}}的剧情介绍</p>
             <p class="Detail">{{movie.summary}}</p>

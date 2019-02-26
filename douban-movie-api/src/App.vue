@@ -106,9 +106,12 @@ h1{
   user-select: none;
   font-weight: normal;
 }
+.headdd{
+  font-size: 0;
+}
 input[type="text"]{
   padding: 7px;
-  border-radius: 4px;
+  border-radius: 4px 0 0 4px;
   border: 1px solid #ddd;
   outline: none;
 }
@@ -119,8 +122,8 @@ input[type="text"]:focus{
 button{
     background-color: #3E74B5;
     border: 1px solid #3868A3;
-    padding: 7px 14px;
-    border-radius: 4px;
+    padding: 6px 15px;
+    border-radius: 0 4px 4px 0;
     color: #fff;
     outline: none;
 }
@@ -406,6 +409,10 @@ button:hover{
     }
 }
 /*movieDetail.vue*/
+.Detail-div {
+    margin-left: 10%;
+    margin-right: 10%; 
+}
 .detailImg{
     width: 30%;
 }
