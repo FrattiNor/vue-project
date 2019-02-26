@@ -110,6 +110,7 @@ h1{
   font-size: 0;
 }
 input[type="text"]{
+  height: 16px;
   padding: 7px;
   border-radius: 4px 0 0 4px;
   border: 1px solid #ddd;
@@ -122,13 +123,15 @@ input[type="text"]:focus{
   box-shadow: 0 0 10px 1px #ddd;
 }
 button{
+    height: 32px;
     vertical-align: bottom;
     background-color: #3E74B5;
     border: 1px solid #3868A3;
-    padding: 6px 15px;
+    padding: 7px 15px;
     border-radius: 0 4px 4px 0;
     color: #fff;
     outline: none;
+    margin-left: -1px;
 }
 button:hover{
     background-color:#325C8F;
