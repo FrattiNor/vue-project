@@ -114,12 +114,15 @@ input[type="text"]{
   border-radius: 4px 0 0 4px;
   border: 1px solid #ddd;
   outline: none;
+  vertical-align: bottom;
 }
 input[type="text"]:focus{
-  border: 1px solid #3af;
+  border: 1px solid #3868A3;
+  /* border: 1px solid #3af; */
   box-shadow: 0 0 10px 1px #ddd;
 }
 button{
+    vertical-align: bottom;
     background-color: #3E74B5;
     border: 1px solid #3868A3;
     padding: 6px 15px;
